@@ -1,0 +1,59 @@
+/* 全体 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  margin: 0;
+  padding: 16px;
+}
+
+/* タイトル */
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+/* 入力エリア */
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+/* ボタン */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+/* 結果カード */
+#result {
+  margin-top: 16px;
+  background: #1a1a1a;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+/* 選手名 */
+.player-name {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* 写真 */
+.player-img {
+  width: 100%;
+  max-width: 180px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 10px;
+}
