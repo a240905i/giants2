@@ -1,12 +1,10 @@
 <!DOCTYPE html>
- reminder
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>ジャイアンツ 背番号検索</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,7 +21,15 @@
 
   <div id="result"></div>
 
-  <!-- ★ 超重要：script.js を読み込む -->
   <script src="script.js"></script>
+
+  <!-- ★ Safari で必須：絶対パスで SW を登録 -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/giants2/service-worker.js');
+    }
+  </script>
+
 </body>
 </html>
+
