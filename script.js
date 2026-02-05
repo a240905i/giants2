@@ -13,12 +13,13 @@ document.getElementById("searchBtn").addEventListener("click", function () {
   console.log("入力された背番号:", num);
 
   if (players[num]) {
-    result.innerHTML = `
-      <h2>${players[num].name}</h2>
-      <p>背番号：${num}</p>
-      <p>ポジション：${players[num].position}</p>
-    `;
+result.innerHTML = `
+  <h2>${players[num].name}</h2>
+  <p>背番号：${num}</p>
+  <p>ポジション：${players[num].position}</p>
+`;
   } else {
     result.textContent = "その背番号の選手はいません";
   }
 });
+
