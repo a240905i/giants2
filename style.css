@@ -16,7 +16,7 @@ h1 {
 
 /* 入力エリア */
 input {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   font-size: 16px;
   border-radius: 8px;
@@ -57,3 +57,4 @@ button {
   display: block;
   border-radius: 10px;
 }
+
