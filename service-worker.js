@@ -1,10 +1,10 @@
 const CACHE_NAME = "giants-cache-v1";
 
 const FILES_TO_CACHE = [
-  "./",
-  "./index.html",
-  "./style.css",
-  "./script.js"
+  "/giants2/",
+  "/giants2/index.html",
+  "/giants2/style.css",
+  "/giants2/script.js"
 ];
 
 // インストール時にキャッシュ
@@ -24,3 +24,4 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
+
