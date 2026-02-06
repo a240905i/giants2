@@ -3,8 +3,6 @@ const players = {
   "18": { name: "菅野 智之", position: "投手" },
   "25": { name: "岡本 和真", position: "内野手" },
   "22": { name: "大勢", position: "投手" },
-  const giantsData = {
-  // 一軍
   "83": { name: "阿部慎之助", position: "監督" },
   "73": { name: "橋上秀樹", position: "オフェンスチーフコーチ" },
   "78": { name: "川相昌弘", position: "ディフェンスチーフコーチ" },
@@ -16,8 +14,6 @@ const players = {
   "81": { name: "杉内俊哉", position: "投手チーフコーチ" },
   "77": { name: "内海哲也", position: "投手コーチ" },
   "88": { name: "實松一成", position: "バッテリーコーチ" },
-
-  // 二軍
   "75": { name: "石井琢朗", position: "監督" },
   "87": { name: "金城龍彦", position: "オフェンスチーフコーチ" },
   "85": { name: "脇谷亮太", position: "ディフェンスチーフコーチ" },
@@ -110,7 +106,7 @@ const players = {
   "024": { name: "坂本達也", position: "捕手（育成）" },
 
   // 内野手
-  "0": { name: "増田大輝", position: "内野手" }, // ※CSV上、湯浅大選手と番号重複
+  "0": { name: "増田大輝", position: "内野手" }, 
   "2": { name: "吉川尚輝", position: "内野手" },
   "5": { name: "門脇誠", position: "内野手" },
   "6": { name: "坂本勇人", position: "内野手" },
@@ -151,9 +147,6 @@ const players = {
   "049": { name: "クリスチャン・フェリス", position: "外野手（育成）" },
   "069": { name: "笹原操希", position: "外野手（育成）" }
 };
-  
-  
-};
 
 document.getElementById("searchBtn").addEventListener("click", function () {
   const num = document.getElementById("numberInput").value;
@@ -169,4 +162,5 @@ document.getElementById("searchBtn").addEventListener("click", function () {
     result.textContent = "その背番号の選手はいません";
   }
 });
+
 
