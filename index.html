@@ -12,8 +12,7 @@
 
   <script>
     const players = {
- const baseballData = {
-  [cite_start]// 一軍コーチ陣 [cite: 1]
+  // 一軍
   "83": { name: "阿部慎之助", position: "監督" },
   "73": { name: "橋上秀樹", position: "オフェンスチーフコーチ" },
   "78": { name: "川相昌弘", position: "ディフェンスチーフコーチ" },
@@ -26,7 +25,7 @@
   "77": { name: "内海哲也", position: "投手コーチ" },
   "88": { name: "實松一成", position: "バッテリーコーチ" },
 
-  [cite_start]// 二軍コーチ陣 [cite: 1]
+  // 二軍
   "75": { name: "石井琢朗", position: "監督" },
   "87": { name: "金城龍彦", position: "オフェンスチーフコーチ" },
   "85": { name: "脇谷亮太", position: "ディフェンスチーフコーチ" },
@@ -36,7 +35,7 @@
   "71": { name: "山口鉄也", position: "投手チーフコーチ" },
   "72": { name: "大竹寛", position: "投手コーチ" },
 
-  [cite_start]// 三軍コーチ陣 [cite: 1]
+  // 三軍
   "70": { name: "会田有志", position: "監督" },
   "103": { name: "橋本到", position: "オフェンスコーチ" },
   "106": { name: "若林晃弘", position: "ディフェンスコーチ" },
@@ -45,11 +44,11 @@
   "104": { name: "野上亮磨", position: "投手チーフコーチ" },
   "101": { name: "西村健太朗", position: "投手コーチ" },
 
-  [cite_start]// 巡回コーチ [cite: 1]
+  // 巡回
   "80": { name: "矢野謙次", position: "打撃コーチ" },
   "84": { name: "久保康生", position: "投手コーチ" },
 
-  [cite_start]// 投手 [cite: 1]
+  // 投手
   "11": { name: "田中将大", position: "投手" },
   "15": { name: "大勢", position: "投手" },
   "17": { name: "西舘勇陽", position: "投手" },
@@ -106,7 +105,7 @@
   "090": { name: "石田充冴", position: "投手（育成）" },
   "099": { name: "京本眞", position: "投手（育成）" },
 
-  [cite_start]// 捕手 [cite: 1]
+  // 捕手
   "10": { name: "甲斐拓也", position: "捕手" },
   "22": { name: "小林誠司", position: "捕手" },
   "24": { name: "大城卓三", position: "捕手" },
@@ -118,9 +117,8 @@
   "022": { name: "亀田啓太", position: "捕手（育成）" },
   "024": { name: "坂本達也", position: "捕手（育成）" },
 
-  [cite_start]// 内野手 [cite: 1]
-  "yuasa_0": { name: "湯浅大", position: "内野手" }, // 背番号0
-  "masuda_0": { name: "増田大輝", position: "内野手" }, // 背番号0
+  // 内野手
+  "0": { name: "増田大輝", position: "内野手" }, // ※CSV上、湯浅大選手と番号重複
   "2": { name: "吉川尚輝", position: "内野手" },
   "5": { name: "門脇誠", position: "内野手" },
   "6": { name: "坂本勇人", position: "内野手" },
@@ -142,7 +140,7 @@
   "033": { name: "平山功太", position: "内野手（育成）" },
   "067": { name: "川原田純平", position: "内野手（育成）" },
 
-  [cite_start]// 外野手 [cite: 1]
+  // 外野手
   "8": { name: "丸佳浩", position: "外野手" },
   "9": { name: "松本剛", position: "外野手" },
   "12": { name: "萩尾匡也", position: "外野手" },
@@ -161,8 +159,6 @@
   "049": { name: "クリスチャン・フェリス", position: "外野手（育成）" },
   "069": { name: "笹原操希", position: "外野手（育成）" }
 };
-      // 省略：必要に応じて全選手データを入れる
-    };
 
     const searchBtn = document.getElementById("searchBtn");
     const numberInput = document.getElementById("numberInput");
